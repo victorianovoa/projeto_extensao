@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fce4ec;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #d81b60;
+}
+
+.tabs {
+  margin: 20px 0;
+}
+
+.tab-button {
+  background-color: #f8bbd0;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.tab-button.active {
+  background-color: #d81b60;
+  color: #fff;
+}
+
+.tab-content {
+  display: none;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.tab-content.active {
+  display: block;
+}
