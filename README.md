@@ -10,7 +10,8 @@ O site conta com um visual suave em tons de rosinha, pensado para tornar a exper
 🛠️ Tecnologias utilizadas:
 HTML5
 CSS3
-JavaScript (Vanilla)
+JavaScript
+
 📌 Funcionalidades:
 Sistema de abas para navegação prática entre os tópicos
 Layout clean e intuitivo
