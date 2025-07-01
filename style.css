@@ -1,47 +1,41 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fce4ec;
-  color: #333;
-  text-align: center;
-  padding: 20px;
-}
-
-h1 {
-  color: #d81b60;
-}
-
 .tabs {
-  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .tab-button {
-  background-color: #f8bbd0;
-  border: none;
   padding: 10px 20px;
-  margin: 5px;
+  background: #f8bbd0; /* tom rosinha suave */
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
-  border-radius: 20px;
-  color: #333;
-  font-weight: bold;
+  font-weight: 600;
+  color: #5a2e5a;
+  transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+  background: #ec407a; /* rosa mais forte no hover */
+  color: white;
 }
 
 .tab-button.active {
-  background-color: #d81b60;
-  color: #fff;
+  background: #d81b60; /* rosa escuro pra aba ativa */
+  color: white;
 }
 
 .tab-content {
   display: none;
-  text-align: left;
-  max-width: 700px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px #ccc;
+  background: #ffe4f1;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(216 27 96 / 0.25);
+  color: #5a2e5a;
 }
 
 .tab-content.active {
   display: block;
 }
+
 
